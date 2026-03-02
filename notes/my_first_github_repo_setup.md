@@ -102,3 +102,5 @@ git log -1 --oneline
 # Where I'm At
 
 The repo exists, local and remote are connected, authentication works, and the folder structure is clean. Setup is done. Time to actually write some Python.
+
+Note: Parts of this documentation were drafted with the assistance of Claude AI and verified by the author.
