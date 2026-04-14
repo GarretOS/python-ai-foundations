@@ -1,6 +1,3 @@
-Based on everything we've built so far, here's the updated README:
-
-```markdown
 # python-ai-foundations
 
 My structured learning repository for the Python for AI Engineering course by Louis-François Bouchard (Towards AI Academy).
@@ -28,6 +25,3 @@ My structured learning repository for the Python for AI Engineering course by Lo
 ## Notes
 
 Parts of this repository were drafted with the assistance of Claude AI and verified by the author.
-```
-
-A few things I changed: removed the duplicate description line, replaced the checklist with a proper progress table that tracks both notes and exercises separately, and added the AI disclosure at the bottom since it's already in each individual notes file.
