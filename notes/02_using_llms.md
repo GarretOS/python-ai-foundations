@@ -145,7 +145,3 @@ For newer reasoning models like GPT o-series, the approach shifts slightly. Spec
 
 - [Blog: Prompting Is a Skill, Not a Trick](https://garretos.github.io/posts/prompting-is-a-skill/)
 - NotebookLM notes (saved locally)
-
----
-
-*Note: Parts of this documentation were drafted with the assistance of Claude AI and verified by the author.*

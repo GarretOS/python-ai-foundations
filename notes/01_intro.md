@@ -110,7 +110,3 @@ That said, LLMs make mistakes. They can generate plausible-looking but broken co
 - [Video: How LLMs Can Be Used as Coding Assistants](https://www.youtube.com/watch?v=F1COwAB_g_E)
 - [Video: CS Fundamentals](https://www.youtube.com/watch?v=_uRb5wlFhyw)
 - NotebookLM notes (saved locally)
-
----
-
-*Note: Parts of this documentation were drafted with the assistance of Claude AI and verified by the author.*
