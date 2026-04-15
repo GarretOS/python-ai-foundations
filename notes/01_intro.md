@@ -103,8 +103,6 @@ That said, LLMs make mistakes. They can generate plausible-looking but broken co
 
 ## Resources
 
-## Resources
-
 - [Blog: Learning AI Engineering Backwards (On Purpose)](https://garretos.github.io/posts/learning-ai-engineering-backwards-on-purpose/)
 - [Video: Course Intro](https://www.youtube.com/watch?v=_hOpfENqPPA)
 - [Video: How LLMs Can Be Used as Coding Assistants](https://www.youtube.com/watch?v=F1COwAB_g_E)
