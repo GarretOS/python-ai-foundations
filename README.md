@@ -16,7 +16,7 @@ Each project is organized in its own directory and may include a Python script, 
 | Section | Topic                          | Notes       | Projects    |
 | ------- | ------------------------------ | ----------- | ----------- |
 | 00      | Setup                          | done        | n/a         |
-| 01      | Introduction + CS Fundamentals | done        | done        |
+| 01      | Introduction + CS Fundamentals | done        | n/a         |
 | 02      | Using LLMs + Prompting 101     | done        | n/a         |
 | 03      | Beginner Code Projects         | in progress | in progress |
 | 04      | Intermediate Code Projects     | not started | not started |
@@ -30,7 +30,3 @@ Each project is organized in its own directory and may include a Python script, 
 A beginner-friendly Python program for tracking daily income, expenses, rent, and savings.
 
 [View project →](projects/personal-budget-tracker/)
-
-## Notes
-
-Parts of this repository were drafted with the assistance of Claude AI and verified by the author.
