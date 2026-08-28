@@ -30,3 +30,9 @@ Each project is organized in its own directory and may include a Python script, 
 A beginner-friendly Python program for tracking daily income, expenses, rent, and savings.
 
 [View project →](projects/personal-budget-tracker/)
+
+### Healthy Habits Tracker
+
+A beginner-friendly Python program for recording multiple water, exercise, and sleep entries that accumulate toward daily goals.
+
+[View project →](projects/healthy-habits-tracker/)
