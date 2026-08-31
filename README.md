@@ -36,3 +36,9 @@ A beginner-friendly Python program for tracking daily income, expenses, rent, an
 A beginner-friendly Python program for recording multiple water, exercise, and sleep entries that accumulate toward daily goals.
 
 [View project →](projects/healthy-habits-tracker/)
+
+### Food Truck Sales Analyzer
+
+A beginner-friendly Python project for analyzing fictional weekly burger truck sales using loops, conditionals, dictionaries, lists, and an interactive Jupyter notebook.
+
+[View project →](projects/food-truck-sales-analyzer/)
