@@ -33,8 +33,6 @@ The program lets you choose a supported habit, enter an amount, and see the accu
 - `sum()` and `len()`
 - Comments and formatted output with `print()`
 
-This project intentionally keeps the implementation simple because it is based on an introductory Python lesson.
-
 ## 📁 Project Structure
 
 ```text
@@ -94,4 +92,4 @@ This project practices storing related values in dictionaries and lists, collect
 
 ## 📝 Notes
 
-This project intentionally does not use functions, classes, external libraries, dates, APIs, databases, or file storage because those concepts are outside the scope of this introductory lesson.
+Habit entries are stored only for the current program session and are not saved after the program ends.

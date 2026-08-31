@@ -29,8 +29,6 @@ This program allows a user to enter daily income, regular expenses, and rent. It
 - Comments
 - f-strings for output formatting
 
-This project intentionally keeps the implementation simple because it is based on an introductory Python lesson.
-
 ## 📁 Project Structure
 
 ```text
@@ -78,7 +76,3 @@ Today you earned $187.50, spent $71.36, and saved $116.14.
 ## 📚 What I Learned
 
 This project practices storing values in variables, collecting user input, converting text input into numbers with `float()`, performing arithmetic, and displaying results with `print()`. It also uses an f-string to format the final summary output cleanly.
-
-## 📝 Notes
-
-This project intentionally does not use external libraries, functions, loops, conditionals, classes, databases, or file storage because those concepts are outside the scope of this introductory lesson.

@@ -37,7 +37,6 @@ The program calculates average daily revenue, total weekly revenue, the busiest 
 - The simple relationship check counts above-average burger days and then checks their revenue. This is not statistical correlation.
 - Weekday and weekend averages are calculated with separate totals and counters.
 - The burger target uses `>=`, so a day exactly at the target would count.
-- Comparing totals is a small extension using concepts already learned.
 
 ## 📁 Project Structure
 
@@ -95,4 +94,5 @@ This project practices organizing related weekly data in a dictionary, processin
 
 ## 📝 Notes
 
-The Stack Attack sales data is fictional. The relationship check is a simple comparison of counts, not statistical correlation. The burgers-versus-drinks comparison is a small extension using concepts already learned. The project intentionally stays within the introductory lesson scope and does not use third-party libraries.
+- The Stack Attack sales data is fictional and was created for this project.
+- The sales and revenue relationship check is a simple comparison and should not be interpreted as a statistical correlation.
