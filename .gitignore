@@ -201,6 +201,9 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# Lost Temple Adventure runtime log
+/projects/lost-temple-adventure/game_log.txt
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
