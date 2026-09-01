@@ -42,3 +42,9 @@ A beginner-friendly Python program for recording multiple water, exercise, and s
 A beginner-friendly Python project for analyzing fictional weekly burger truck sales using loops, conditionals, dictionaries, lists, and an interactive Jupyter notebook.
 
 [View project →](projects/food-truck-sales-analyzer/)
+
+### Lost Temple Adventure
+
+A beginner-friendly Python text adventure where the player explores an ancient temple, finds the Ancient Seal, and uses it to escape. It practices nested dictionaries, multi-layer menus, inventory and state tracking, dictionary methods, exception handling, logging, slicing, and Enum.
+
+[View project →](projects/lost-temple-adventure/)
