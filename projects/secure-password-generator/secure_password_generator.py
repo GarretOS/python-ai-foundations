@@ -2,6 +2,7 @@ import random
 
 
 def generate_password(length, include_numbers, include_special, include_uppercase):
+    # Build the available character pool
     characters = "abcdefghijklmnopqrstuvwxyz"
 
     if include_numbers:
@@ -13,6 +14,7 @@ def generate_password(length, include_numbers, include_special, include_uppercas
     if include_uppercase:
         characters += "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
+    # Generate the password
     password = ""
 
     for _ in range(length):
@@ -22,6 +24,7 @@ def generate_password(length, include_numbers, include_special, include_uppercas
 
 
 def check_password_strength(password, include_numbers, include_special, include_uppercase):
+    # Calculate the simple project strength score
     score = len(password)
 
     if include_numbers:
@@ -42,6 +45,7 @@ def check_password_strength(password, include_numbers, include_special, include_
 
 
 def test_generate_password():
+    # Run the mini length test
     test_password = generate_password(12, True, True, True)
 
     if len(test_password) == 12:
@@ -51,6 +55,7 @@ def test_generate_password():
 
 
 def main():
+    # Collect and validate user input
     while True:
         try:
             length_input = input("Enter password length (minimum 8): ")
@@ -73,6 +78,7 @@ def main():
             ).lower()
             include_uppercase = include_uppercase_input == "yes"
 
+            # Generate and display the final result
             new_password = generate_password(
                 length,
                 include_numbers,
