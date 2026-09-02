@@ -48,3 +48,9 @@ A beginner-friendly Python project for analyzing fictional weekly burger truck s
 A beginner-friendly Python text adventure where the player explores an ancient temple, finds the Ancient Seal, and uses it to escape. It practices nested dictionaries, multi-layer menus, inventory and state tracking, dictionary methods, exception handling, logging, slicing, and Enum.
 
 [View project →](projects/lost-temple-adventure/)
+
+### Secure Password Generator
+
+The first Intermediate Python portfolio project, a beginner-friendly password generator that uses user-selected length and character groups with a simple strength assessment.
+
+[View project →](projects/secure-password-generator/)
