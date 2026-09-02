@@ -18,7 +18,7 @@ Each project is organized in its own directory and may include a Python script, 
 | 00      | Setup                          | done        | n/a         |
 | 01      | Introduction + CS Fundamentals | done        | n/a         |
 | 02      | Using LLMs + Prompting 101     | done        | n/a         |
-| 03      | Beginner Code Projects         | in progress | in progress |
+| 03      | Beginner Code Projects         | done        | done        |
 | 04      | Intermediate Code Projects     | not started | not started |
 | 05      | Code Projects with LLMs        | not started | not started |
 | 06      | Capstone Project               | not started | not started |
