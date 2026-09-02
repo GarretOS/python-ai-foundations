@@ -100,5 +100,4 @@ This project practices organizing a program with functions, passing arguments to
 - Random output changes on each run.
 - Enabling a character group adds it to the available pool but does not guarantee that at least one character from that group appears.
 - The `Weak` / `Medium` / `Strong` score is a simple educational project rule, not a professional cybersecurity measurement.
-- Python's built-in `random` module is used because it is the module taught in this lesson.
 - No third-party packages are required.
