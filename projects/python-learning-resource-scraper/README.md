@@ -1,6 +1,6 @@
 # 🐍 Python Learning Resource Scraper
 
-Python Learning Resource Scraper is an intermediate Python portfolio project inspired by the Towards AI **Web Scraping** lesson. Instead of copying the lesson's example, it builds a small learning-resource application that collects useful details from three official Python documentation pages.
+Python Learning Resource Scraper is an intermediate Python portfolio project inspired by the Towards AI **Web Scraping** lesson. It applies core web scraping concepts to a practical learning-resource application that collects useful information from three official Python documentation pages.
 
 ## 🎯 Project Overview
 
@@ -36,7 +36,7 @@ The project deliberately scrapes only these three public pages. It does not craw
 
 `run_scraper()` defines the three documentation URLs and creates a `[None, None, None]` results list. Each thread calls `update_results()`, which calls `scrape_resource()` and stores its dictionary at the matching list index. This indexed storage preserves input order even when requests finish at different times.
 
-Inside `scrape_resource()`, `requests.get()` retrieves the page with a timeout. BeautifulSoup parses `response.text`; a small lambda extracts the title, and `soup.find("h1")` finds the first heading. A request exception returns a useful fallback dictionary instead of stopping the whole program.
+Inside `scrape_resource()`, `requests.get()` retrieves the page with a timeout and uses the response's apparent encoding before parsing. BeautifulSoup parses `response.text`; a small lambda extracts the title, and `soup.find("h1")` finds the first heading after its documentation section number and permalink are removed. A request exception returns a useful fallback dictionary instead of stopping the whole program.
 
 ## 📁 Project Structure
 

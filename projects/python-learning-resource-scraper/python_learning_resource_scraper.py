@@ -19,6 +19,7 @@ def scrape_resource(url, verbose=False):
 
     try:
         response = requests.get(url, timeout=10)
+        response.encoding = response.apparent_encoding
         soup = BeautifulSoup(response.text, "html.parser")
 
         extract_title = lambda soup_obj: (
@@ -28,6 +29,15 @@ def scrape_resource(url, verbose=False):
         page_title = extract_title(soup).strip()
 
         heading_tag = soup.find("h1")
+        if heading_tag:
+            section_number = heading_tag.find("span", class_="section-number")
+            if section_number:
+                section_number.decompose()
+
+            permalink = heading_tag.find("a", class_="headerlink")
+            if permalink:
+                permalink.decompose()
+
         main_heading = (
             heading_tag.get_text(strip=True)
             if heading_tag
