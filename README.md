@@ -54,3 +54,9 @@ A beginner-friendly Python text adventure where the player explores an ancient t
 The first Intermediate Python portfolio project, a beginner-friendly password generator that uses user-selected length and character groups with a simple strength assessment.
 
 [View project →](projects/secure-password-generator/)
+
+### Python Learning Resource Scraper
+
+An intermediate Python project that scrapes three official Python documentation pages using requests, BeautifulSoup, and threading, then reports each page's title, first heading, URL, and HTTP status.
+
+[View project →](projects/python-learning-resource-scraper/)
