@@ -54,6 +54,18 @@ def test_generate_password():
         print("Test failed: generated password has the wrong length.")
 
 
+def get_yes_no(prompt):
+    while True:
+        answer = input(prompt).lower()
+
+        if answer == "yes" or answer == "y":
+            return True
+        elif answer == "no" or answer == "n":
+            return False
+        else:
+            print("Please enter yes/y or no/n.")
+
+
 def main():
     # Collect and validate user input
     while True:
@@ -65,18 +77,13 @@ def main():
                 print("The password must be at least 8 characters long.")
                 continue
 
-            include_numbers_input = input("Include numbers? (yes/no): ").lower()
-            include_numbers = include_numbers_input == "yes"
-
-            include_special_input = input(
+            include_numbers = get_yes_no("Include numbers? (yes/no): ")
+            include_special = get_yes_no(
                 "Include special characters? (yes/no): "
-            ).lower()
-            include_special = include_special_input == "yes"
-
-            include_uppercase_input = input(
+            )
+            include_uppercase = get_yes_no(
                 "Include uppercase letters? (yes/no): "
-            ).lower()
-            include_uppercase = include_uppercase_input == "yes"
+            )
 
             # Generate and display the final result
             new_password = generate_password(

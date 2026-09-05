@@ -13,6 +13,7 @@ The program asks the user for a password length of at least 8 characters and whe
 - Optional numbers
 - Optional special characters
 - Optional uppercase letters
+- Validated yes/no choices accepting `yes` / `y` and `no` / `n`
 - Random password generation
 - Simple `Weak` / `Medium` / `Strong` assessment
 - Error handling for invalid length input
@@ -25,6 +26,7 @@ The program asks the user for a password length of at least 8 characters and whe
 - `for` loops and `range()`
 - `_` as the conventional loop variable when the loop value is intentionally unused
 - Booleans
+- Input validation with `while True` and `return True` / `return False`
 - Integer conversion with `int()`
 - `try` / `except ValueError`
 - `continue` and `break`
@@ -70,7 +72,7 @@ You can also use:
 python3 secure_password_generator.py
 ```
 
-Enter a password length of at least 8, then answer `yes` or `no` for each optional character group.
+Enter a password length of at least 8, then answer `yes` / `y` or `no` / `n` for each optional character group. Invalid responses are rejected and the same question is asked again.
 
 ### Run in Google Colab
 
@@ -84,7 +86,7 @@ Open the notebook in Google Colab:
 Enter password length (minimum 8): 12
 Include numbers? (yes/no): yes
 Include special characters? (yes/no): yes
-Include uppercase letters? (yes/no): yes
+Include uppercase letters? (yes/no): y
 Generated password: aB7!mQ2x#kLp
 Password strength: Strong
 ```
