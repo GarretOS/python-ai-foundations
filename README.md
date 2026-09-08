@@ -60,3 +60,9 @@ The first Intermediate Python portfolio project, a beginner-friendly password ge
 An intermediate Python project that scrapes three official Python documentation pages using requests, BeautifulSoup, and threading, then reports each page's title, first heading, URL, and HTTP status.
 
 [View project →](projects/python-learning-resource-scraper/)
+
+### Python Foundations Quiz
+
+A beginner-friendly interactive Python quiz built with Gradio that demonstrates a multi-file Python application and web UI.
+
+[View project →](projects/python-foundations-quiz/)
