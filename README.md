@@ -66,3 +66,9 @@ An intermediate Python project that scrapes three official Python documentation 
 A beginner-friendly interactive Python quiz built with Gradio that demonstrates a multi-file Python application and web UI.
 
 [View project →](projects/python-foundations-quiz/)
+
+### Personal Finance Dashboard
+
+The fourth Intermediate Python portfolio project, a personal finance dashboard with persistent CSV transaction storage, pandas analysis, datetime handling, financial summaries, and interactive Plotly charts.
+
+[View project →](projects/personal-finance-dashboard/)

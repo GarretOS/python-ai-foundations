@@ -68,22 +68,26 @@ Open the notebook in Google Colab:
 
 <a href="https://colab.research.google.com/github/GarretOS/python-ai-foundations/blob/main/projects/personal-finance-dashboard/personal_finance_dashboard.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
+The notebook has been manually validated in Google Colab.
+
 ## 💡 Example Output
 
 ```text
 === Financial Summary ===
-Total Income:   $3,500.00
-Total Expenses: $700.00
-Net Balance:    $2,800.00
+Total Income:   $3,750.00
+Total Expenses: $1,330.00
+Net Balance:    $2,420.00
 ```
 
-The bar chart compares the $3,500 income total with the $700 expense total. The pie chart shows Groceries as the largest expense category at $450. The line chart shows income peaking at $3,000 on 2026-09-01 and the largest expense day as 2026-09-02 at $350.
+The bar chart compares the $3,750 income total with the $1,330 expense total. The pie chart shows Groceries as the largest expense category at $590. The line chart shows income peaking at $3,000 on 2026-09-01 and the largest expense day as 2026-09-04 at $360.
 
 ## 📊 Interactive Dashboard
 
 - **Income vs. Expenses** uses `Type` and summed `Amount` values in a bar chart.
 - **Expenses by Category** filters to expense rows, then groups by `Category` and sums `Amount`.
 - **Daily Income and Expense Trend** converts `Date` to datetime values and sums transactions by date and type.
+
+The notebook's **Try It Yourself** section uses a separate controlled 20-row in-memory dataset to demonstrate all three visualizations without changing `finance_data.csv`.
 
 ## 📚 What I Learned
 
