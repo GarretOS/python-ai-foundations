@@ -128,6 +128,7 @@ def show_charts(df):
         x="Date",
         y="Amount",
         color="Type",
+        markers=True,
         title="Daily Income and Expense Trend",
     )
     daily_trend_chart.show()
