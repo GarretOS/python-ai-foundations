@@ -93,6 +93,8 @@ Open the notebook in Google Colab:
 
 <a href="https://colab.research.google.com/github/GarretOS/python-ai-foundations/blob/main/projects/python-foundations-quiz/python_foundations_quiz.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
+Run the setup and notebook cells in Colab. The Gradio launch cell may provide a temporary `gradio.live` share URL; open that link in a browser to test the quiz online. The link is temporary and is not a permanent deployment. `quiz_app.py` remains the primary application, while the notebook is a learning and testing companion. This project does not claim a permanent Hugging Face Spaces deployment.
+
 ## 💡 Example Interaction
 
 ```text
@@ -111,7 +113,7 @@ This project practices separating data into a local module, importing a constant
 
 - The questions are intentionally simple so the application can focus on demonstrating Gradio and beginner Python concepts.
 - Gradio is a third-party dependency; Python standard-library modules are not listed in `requirements.txt`.
-- The notebook is a learning companion and is not required to run the local script.
+- The notebook is a learning/testing companion and is not required to run the local script.
 - Hugging Face Spaces could be a possible future deployment path, but this project does not claim a completed deployment.
 - The local Gradio application has been manually tested in a browser.
 - No score tracking, account system, database, API, custom JavaScript, or custom CSS is included.
