@@ -72,3 +72,9 @@ A beginner-friendly interactive Python quiz built with Gradio that demonstrates 
 The fourth Intermediate Python portfolio project, a personal finance dashboard with persistent CSV transaction storage, pandas analysis, datetime handling, financial summaries, and interactive Plotly charts.
 
 [View project →](projects/personal-finance-dashboard/)
+
+### News Insight Analyzer
+
+An intermediate Python portfolio project featuring a Gemini-powered Gradio app that analyzes pasted news text and returns a concise summary, sentiment, relevant tags, and a key takeaway. It practices Gemini API integration, secure API-key handling, prompt engineering, JSON responses with `json.loads()`, error handling, and Gradio. Users supply their own Gemini API key.
+
+[View project →](projects/news-insight-analyzer/)
