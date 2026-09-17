@@ -4,7 +4,7 @@ import gradio as gr
 from google import genai
 
 
-MODEL_NAME = "gemini-3.8-flash"
+MODEL_NAME = "gemini-3.5-flash"
 
 
 def build_prompt(article_text):
@@ -68,7 +68,7 @@ def analyze_news_article(article_text):
     except Exception as error:
         print(f"News analysis failed: {error}")
         return fallback_result(
-            "The article could not be analyzed. Check your Gemini API key and try again."
+            "The article could not be analyzed. Check your Gemini API key or try again later."
         )
 
 
