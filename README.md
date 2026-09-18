@@ -20,7 +20,7 @@ Each project is organized in its own directory and may include a Python script, 
 | 02      | Using LLMs + Prompting 101     | done        | n/a         |
 | 03      | Beginner Code Projects         | done        | done        |
 | 04      | Intermediate Code Projects     | done        | done        |
-| 05      | Code Projects with LLMs        | not started | not started |
+| 05      | Code Projects Using LLMs       | in progress | in progress |
 | 06      | Capstone Project               | not started | not started |
 
 ## Projects
@@ -75,6 +75,6 @@ The fourth Intermediate Python portfolio project, a personal finance dashboard w
 
 ### News Insight Analyzer
 
-An intermediate Python portfolio project featuring a Gemini-powered Gradio app that analyzes pasted news text and returns a concise summary, sentiment, relevant tags, and a key takeaway. It practices Gemini API integration, secure API-key handling, prompt engineering, JSON responses with `json.loads()`, error handling, and Gradio. Users supply their own Gemini API key.
+The completed Section 05 project so far: an intermediate Python portfolio project featuring a Gemini-powered Gradio app that analyzes pasted news text and returns a concise summary, sentiment, relevant tags, and a key takeaway. It practices Gemini API integration, secure API-key handling, prompt engineering, JSON responses with `json.loads()`, error handling, and Gradio. Users supply their own Gemini API key.
 
 [View project →](projects/news-insight-analyzer/)
