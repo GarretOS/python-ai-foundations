@@ -208,3 +208,6 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# NASA Space RAG local cache
+/projects/nasa-space-rag/doc_embeddings.json

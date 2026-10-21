@@ -1,0 +1,9 @@
+Title: Black Holes
+Source: NASA Science — Black Holes
+Source URL: https://science.nasa.gov/universe/black-holes/
+
+A black hole is a huge concentration of matter packed into a very small space. Its gravity is so strong that, just beneath its event horizon, nothing can escape—not even light. The event horizon is not a solid surface like the surface of Earth or the Sun. It is a boundary containing the matter that makes up the black hole. NASA notes that black holes are still not fully understood, including what matter is like inside this boundary.
+
+Black holes do not emit or reflect light, so telescopes cannot normally see them directly. Scientists instead study how black holes affect nearby matter and light. A black hole may be surrounded by an accretion disk, a ring of gas and dust that emits light at many wavelengths, including X-rays. Astronomers can also infer a supermassive black hole from the particular orbits of stars near it.
+
+Other observations can reveal black holes as well. When massive objects accelerate through space, they can create gravitational waves—ripples in space-time that detectors may measure. A black hole’s gravity can also bend and distort light from more distant objects; this effect is called gravitational lensing and can help scientists find isolated black holes that would otherwise remain invisible. Black holes do not act like cosmic vacuum cleaners: from far away, their gravitational effects are like those of other objects with the same mass.
