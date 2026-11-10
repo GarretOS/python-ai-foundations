@@ -10,7 +10,7 @@ Story Spark is a beginner-friendly local API that creates short fictional story 
 - JSON file persistence with a history endpoint
 - Separate `requests` client for offline API checks and optional live generation
 
-The API generates story premises, not full stories. Valid structure does not guarantee creative quality, originality, or exact tone adherence. In the user-tested example, two stories used cozy science fiction, a floating night market on Europa, and a retired cartographer, but their tone was not perfectly cozy.
+The API generates story premises, not full stories. Valid structure does not guarantee creative quality, originality, or exact tone adherence. Ideas may be similar to one another even when each response passes validation. In the user-tested example, two stories used cozy science fiction, a floating night market on Europa, and a retired cartographer, but their tone was not perfectly cozy.
 
 ## 🐍 Concepts Practiced
 
@@ -184,7 +184,8 @@ For local Jupyter, use a Python 3.10+ kernel and open the notebook beside the so
 - Model access, pricing, and quota depend on the user's Google account and can change. The configured default is `gemini-3.5-flash-lite`; use `GEMINI_MODEL` to override it.
 - The required JSON schema fixed an observed live failure involving an invalid `plot_twist`. Do not remove the schema or weaken the nonblank field checks.
 - The user verified local live generation of two valid stories, history retrieval, persistence across a server restart, and the expected HTTP 400/422 input errors. No live Gemini calls were made for this documentation task.
-- The non-live notebook flow was executed in a fresh local Jupyter kernel, including startup, reruns, and cleanup. Actual Google Colab testing is pending.
+- The non-live notebook flow was executed in a fresh local Jupyter kernel, including startup, reruns, and cleanup.
+- The user verified actual Google Colab execution: automatic source downloads and dependency installation succeeded; offline history retrieval and input-validation checks passed; invalid requests left history unchanged; live generation with `gemini-3.5-flash-lite` returned two stories, each with nonblank `title`, `premise`, and `plot_twist`; the generated request was saved and retrieved; and server cleanup succeeded.
 
 ## 📚 Notes
 
