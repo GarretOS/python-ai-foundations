@@ -75,7 +75,7 @@ The fourth Intermediate Python portfolio project, a personal finance dashboard w
 
 ### News Insight Analyzer
 
-The completed Section 05 project so far: an intermediate Python portfolio project featuring a Gemini-powered Gradio app that analyzes pasted news text and returns a concise summary, sentiment, relevant tags, and a key takeaway. It practices Gemini API integration, secure API-key handling, prompt engineering, JSON responses with `json.loads()`, error handling, and Gradio. Users supply their own Gemini API key.
+An intermediate Python portfolio project featuring a Gemini-powered Gradio app that analyzes pasted news text and returns a concise summary, sentiment, relevant tags, and a key takeaway. It practices Gemini API integration, secure API-key handling, prompt engineering, JSON responses with `json.loads()`, error handling, and Gradio. Users supply their own Gemini API key.
 
 [View project →](projects/news-insight-analyzer/)
 
@@ -84,3 +84,9 @@ The completed Section 05 project so far: an intermediate Python portfolio projec
 A beginner-friendly RAG application using five NASA-derived text documents, Gemini embeddings, and grounded answer generation. It practices manual cosine similarity and top-two document retrieval with a Gradio interface that displays answers, document names, and similarity scores.
 
 [View project →](projects/nasa-space-rag/)
+
+### Story Spark API
+
+A beginner-friendly FastAPI project that generates one to three story ideas with Gemini, validates structured JSON responses, and saves successful requests to local JSON history. It practices HTTP clients and servers, input validation, asynchronous calls with `asyncio.gather()`, and file persistence, with a Jupyter/Colab learning companion. Users supply their own Gemini API key.
+
+[View project →](projects/story-spark-api/)

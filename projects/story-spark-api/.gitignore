@@ -1,0 +1,10 @@
+# Local request history and atomic-write files
+data.json
+data-*.tmp
+
+# Notebook history copied from a temporary runtime
+history.json
+story-spark-notebook-*/
+
+# Credential-file variants (.env is also ignored by the root rules)
+.env.*
