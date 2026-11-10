@@ -160,14 +160,14 @@ The history response is a JSON list. It is `[]` before any successful generation
 Open the notebook using the badge above, or upload a local copy to Colab:
 
 1. Open [Google Colab](https://colab.research.google.com/) and choose **File → Upload notebook** to upload local `story_spark.ipynb`.
-2. In the Colab **Files** sidebar, upload local `server.py` and `requirements.txt` directly into `/content`. Do not upload credentials or `data.json`. The notebook reuses these uploaded source files rather than downloading application code from GitHub.
+2. Run the first source-setup cell. In Colab, it automatically downloads `server.py` and `requirements.txt` from `https://raw.githubusercontent.com/GarretOS/python-ai-foundations/main/projects/story-spark-api/` into `/content` and sets `PROJECT_DIR` accordingly. No source uploads are needed. Downloads have a 30-second timeout per file and clear failure messages; check internet access and rerun setup if one fails. Rerunning this cell refreshes those two source files, so keep any source edits elsewhere first. Credentials and history are not downloaded or overwritten.
 3. Keep `RUN_LIVE = False` and run the cells from top to bottom. No key is needed. Setup installs the project dependencies; the demonstrations retrieve history and check invalid input using real HTTP requests.
 4. Optionally add `GEMINI_API_KEY` in Colab **Secrets** and enable notebook access. Change `RUN_LIVE = True`, optionally change `MODEL_NAME` (which sets `GEMINI_MODEL`), then rerun from the configuration cell through the remaining cells. This generates two real stories and verifies their saved history. Outside Colab, the notebook uses the environment key or hidden `getpass()` input.
 5. Run the cleanup cell to stop the server. Download the separate history file from the printed location if you want to retain live results. Colab runtime storage is temporary.
 
 The notebook starts Uvicorn in a separate Python process bound to `127.0.0.1` on an available port. It waits for readiness with a bounded timeout and uses `requests` for actual HTTP calls. This avoids notebook event-loop conflicts without `asyncio.run()` in cells. Rerunning startup stops the old notebook process, and cleanup stops the current one. It imports the existing server and overrides only its history path inside the child process, leaving the project's `data.json` untouched. No public URL is created.
 
-For local Jupyter, use a Python 3.10+ kernel and open the notebook beside the source files or start Jupyter from the repository root. Install Jupyter separately if needed; it is not an application dependency. The notebook's temporary history directory is reused within a kernel and changes in a fresh kernel.
+For local Jupyter, use a Python 3.10+ kernel and open the notebook beside the source files or start Jupyter from the repository root. Outside Colab, setup uses local source files without downloading or overwriting them. Missing local files produce a clear error. Install Jupyter separately if needed; it is not an application dependency. The notebook's temporary history directory is reused within a kernel and changes in a fresh kernel.
 
 ## ⚠️ Error Behavior and Limitations
 
